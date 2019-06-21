@@ -1,0 +1,47 @@
+html,
+body {
+    background-color: #DDE4EB;
+}
+
+* {
+    font-family: "Fira Sans", sans-serif !important;
+}
+
+
+/* pagina equipa */
+.media img {
+    width: 170px;
+    height: 170px;
+}
+
+/* espaco em paragros proximos  */
+p+p {
+    margin-top: 10px;
+}
+
+.hide {
+    display: none;
+}
+
+.uk-slideshow-items img {
+    width: 100% !important;
+    height: 100% !important;
+    position: relative;
+}
+
+.uk-slideshow-items {
+    min-height: 400px !important;
+}
+
+#particles-js {
+    position: absolute !important;
+    top: 0 !important;
+    width: 100%;
+    z-index: 2 !important;
+
+}
+
+#slideshow {
+    position: relative !important;
+    z-index: 4 !important;
+}
